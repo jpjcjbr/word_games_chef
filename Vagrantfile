@@ -19,8 +19,8 @@ Vagrant.configure("2") do |config|
     override.vm.box = 'digital_ocean'
     override.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 
-    provider.client_id = "839378f57548bc3c8a83e302f606ca92"
-    provider.api_key = "e97079f7cefb21ed0f97147517bb8d51"
+    provider.client_id = "x"
+    provider.api_key = "x"
     provider.image = "Ubuntu 12.04.4 x64"
 
     provider.ssh_key_name = "MAC JP"
